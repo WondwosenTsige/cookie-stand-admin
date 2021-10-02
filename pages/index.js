@@ -9,9 +9,8 @@ export default function Home() {
         <title>Cookie Stand Admin</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <header className="flex items-center justify-between p-4">
+      <header className="flex items-center justify-between p-3 bg-green-500 text-black-100">
         <h1 className="text-4xl">Cookide Stand Admin</h1>
-        <p>Hello World!</p>
         {/* <p className="text-xl">{ answeredQuestions.length } Question Answered</p> */}
       </header>
     </div>
