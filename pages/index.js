@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 import Layout from "../components/Layout";
-import Form from "../components/form";
+import Form from "../components/Form";
 import Reporttable from "../components/Reporttable";
 import { hours } from "../data";
 import { useState, useEffect } from "react";
