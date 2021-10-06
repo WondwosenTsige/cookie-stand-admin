@@ -14,4 +14,4 @@
 - Pro tip: Tailwind CSS Extension Pack
   
   ### Collaborators
-  Daniel, Davee, Wondwosen
+  Daniel, Davee, Prabin
