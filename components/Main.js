@@ -2,8 +2,8 @@ import { useState } from 'react';
 import { useDispatch } from 'react-redux';
 
 import Form from './Form';
-import ReportTable from './ReportTable';
-import { changeCount } from '../redux/countSlice';
+import Reporttable from './Reporttable';
+import { changeCount } from '../reduxStore/countSlice';
 import { hours } from '../data.js';
 
 function Main() {
@@ -40,7 +40,7 @@ function Main() {
   return (
     <div>
       <Form updateReport={updateReport} />
-      <ReportTable hours={hours} reports={reports} />
+      <Reporttable hours={hours} reports={reports} />
     </div>
   );
 }
