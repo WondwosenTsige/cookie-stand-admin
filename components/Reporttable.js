@@ -1,7 +1,7 @@
 import React from "react";
 
 function Reporttable(props) {
-  if (props.reports.length === 0) {
+  if (props.reports && props.reports.length === 0) {
     return <h2 className="text-center">No Cookie Stand Available</h2>;
   }
   return (
@@ -16,17 +16,18 @@ function Reporttable(props) {
         </tr>
       </thead>
       <tbody>
-        {props.reports.map((store) => {
-          return (
-            <tr className="odd:bg-gray-500" key={Math.random()}>
-              <td>{store.location}</td>
-              {store.hourly_sale.map((sale) => {
-                return <td>{sale}</td>;
-              })}
-              <td>100</td>
-            </tr>
-          );
-        })}
+        {props.reports &&
+          props.reports.map((store) => {
+            return (
+              <tr className="odd:bg-gray-500" key={Math.random()}>
+                <td>{store.location}</td>
+                {store.hourly_sales.map((sale) => {
+                  return <td>{sale}</td>;
+                })}
+                <td>100</td>
+              </tr>
+            );
+          })}
       </tbody>
     </table>
   );
