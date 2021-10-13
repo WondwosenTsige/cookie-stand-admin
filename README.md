@@ -16,6 +16,10 @@
   - Won’t break if they get left in, but a good practice to remove stuff you’re not using.
 - Pro tip: Tailwind CSS Extension Pack
   
+### Deployment
+
+[Deployed URL](https://cookie-stand-admin-lake-eta.vercel.app/)
+
 ### Resource and Collaborators
 
-  For this project I used the class repo as reference and collaborated with Daniel Dills, Davee Sok, and Prabin Singh
+  For this project I used the class repo as reference and collaborated with Daniel Dills, Davee Sok, Kassie Bradshaw and Prabin Singh,
