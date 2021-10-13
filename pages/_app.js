@@ -1,12 +1,12 @@
 import "tailwindcss/tailwind.css";
-import { Provider } from "react-redux";
+import { AuthProvider } from "../contexts/auth"
 import { store } from "../reduxStore";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <Provider store={store}>
+    <AuthProvider store={store}>
       <Component {...pageProps} />
-    </Provider>
+    </AuthProvider>
     // <Component {...pageProps} />
   );
 }
